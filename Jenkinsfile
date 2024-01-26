@@ -11,7 +11,7 @@ pipeline {
       stage('checkout') {
 
         steps {
-          git 'https://github.com/PaulCreutzTNG/ciCdPlayground'
+          git branch: 'main', url: 'https://github.com/PaulCreutzTNG/ciCdPlayground'
 
           sh 'yarn'
           sh 'yarn build'
