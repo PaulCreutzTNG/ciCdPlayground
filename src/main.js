@@ -16,7 +16,7 @@ new App({
 		tools: 'GitHub Actions?',
 		// What do you want to learn in this workshop? 
 		expectations: [
-			'Better understand the concept of CI/CD'
+			'Better understand the concept of CI/ CD'
 		],
 		// What do you like to do when you're not coding?
 		hobbies: [
